@@ -13,7 +13,7 @@ export default class Routing extends Component {
           <Route path="/" component={Home} exact />
           <Route path="/completedTask" component={CompletedTask} exact />
           <Route path="/inCompletedTask" component={IncompletedTask} exact />
-          <Route path="/particularTask/:title?" component={particularPage} />
+          <Route path="/particularTask/:title?" component={particularPage} exact />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </BrowserRouter>

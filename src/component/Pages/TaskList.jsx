@@ -13,10 +13,10 @@ export default class Task extends Component {
             <ul>
               {this.props.value.completedTask.map((value) => (
                 <li key={value.id} id="list">
-                  <Link to={'/particularTask/'+ value.title}>
-                  <button className="taskbutton">
-                    {value.title} {"----><-----"} {value.id}
-                  </button>
+                  <Link to={"/particularTask/" + value.title}>
+                    <button className="taskbutton">
+                      {value.title} {"----><-----"} {value.id}
+                    </button>
                   </Link>
                 </li>
               ))}

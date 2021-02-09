@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import Routing from "./component/utlis/Routing";
-export default class App extends Component {
+//import Routing from "./component/utlis/Routing";
+//import MaterialDemo from "./MaterialDemo";
+
+import CounterPage from "./component/RoomBooking/CounterPage";
+
+class App extends Component {
   render() {
     return (
       <div>
-        <Routing />
+        <CounterPage />
       </div>
     );
   }
 }
+
+export default App;

@@ -12,7 +12,7 @@ export default class particularPage extends Component {
             width: "50%",
             borderRadius: "15px",
             margin: "15%",
-            backgroundColor: "#ffca22",
+            backgroundColor: "rgb(34 202 255 / 35%)",
             textAlign: "center",
             padding: "30px",
           }}
